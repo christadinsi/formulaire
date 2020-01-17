@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulaire</title>
+</head>
+<body>
+  <h1>Renseignements</h1>
+   <form>
+   	<fieldset>
+   		<legend>Civilité</legend>
+   		
+   		     <label for="nom">Nom et prénom * </label> : <input type="text" name="pseudo"  id="nom" autofocus required tabindex="1"> <br/><br/>
+   		     <label for="pass">Mot de passe * </label> : <input type="password" name="pass" id="pass" tabindex="2"><br/><br/>
+   		     <label for="adresse">Adresse</label> : <input type="email" name="email" id="adresse"required tabindex="3">
+   		<p>
+   		sexe :
+   		     <input type="radio" name="genre" tabindex="4"> <label>Homme</label> 
+   		     <input type="radio" name="genre" checked tabindex="5"> <label>Femme</label>
+
+   		</p>
+   	</fieldset>
+   	<fieldset>
+   		<legend>Formations</legend>
+   		<p>
+   			<label for="diplome"> Dernier diplome</label>:
+   			<select name="diplome" id="diplome" tabindex="7">
+   				 <option value="Aucun" selected="Aucun">Aucun<option>
+   			   <option value="Bac">Bac</option>	
+   			   <option value="Bac3">Bac+1</option>
+           <option value="Bac2">Bac+2</option>
+   			   <option value="Bac3">Bac+3 </option>
+   			   <option value="Master">Master</option>
+   			   <option value="Doctorat">Doctorat</option>
+   			</select>
+   		</p> 
+   		<p>
+   			centre d'interret:
+   			<input type="checkbox" name="interet[]" checked="Musique" id="musique"> <label for="musique">Musique</label>
+
+   			<input type="checkbox" name="interet []" id="Sport">  <label for="Sport">Sport</label>
+   			<input type="checkbox" name="interet []" id="Lecture"> <label for="Lecture">Lecture</label>
+   		</p>
+     </fieldset>
+
+  
+     	     <label for="Commentaire"> Commentaires</label> <br/>
+     	     <textarea name="commentaire" id="commentaire" rows="3" cols="50" maxlength="100" tabindex="6">
+     	     </textarea>
+     	     <br/>
+     	     <input type="checkbox" name="accepter">
+     	     <label> J'accepte les conditions </label> <br/> <br/>
+     <fieldset>
+      <legend>entrez votre nom et age</legend>
+          <label for="nom_prenom">nom et prenom</label>
+          <input type="text" name="nom_prenom" id="nom_prenom">
+           <label for="age_user"> Votre age*</label>
+           <input type="number" name="age_user"  id="age_user" placeholder="votre age" min="7" max="77" required><br><br>
+
+     	     <input type="submit" value="Envoyer" name="bouton_envoyer"> 
+     </fieldset>
+   	
+   </form>
+</body>
+</html>
