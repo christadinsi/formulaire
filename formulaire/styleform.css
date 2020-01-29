@@ -1,0 +1,28 @@
+body{
+	width: 600px;
+	border:10px solid #62BAF5 ;
+	margin: auto;
+	padding: 20px;
+}
+input[type=text]{
+	/*width: 50%*/	
+	background-color:#A3D7F9 ;
+	color: white;
+}
+input[type=password]{
+	/*width: 50%*/
+	background-color:lightblue;
+	color:white;
+}
+input[type=adresse]{
+	width: 100%
+}
+*{
+
+	font-family: Roboto,vernada,sans-serif;
+}
+fieldset{
+	background-color: #9AD0F5 ;
+
+}
+

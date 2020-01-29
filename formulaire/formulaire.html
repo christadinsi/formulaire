@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="author" content="christ">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styleform.css">
 	<title>formulaire</title>
 </head>
 <body>
@@ -12,9 +15,9 @@
    		
    		     <label for="nom">Nom et prénom * </label> : <input type="text" name="pseudo"  id="nom" autofocus required tabindex="1"> <br/><br/>
    		     <label for="pass">Mot de passe * </label> : <input type="password" name="pass" id="pass" tabindex="2"><br/><br/>
-   		     <label for="adresse">Adresse</label> : <input type="email" name="email" id="adresse"required tabindex="3">
+   		     <label for="adresse">Adresse * </label> : <input type="email" name="email" id="adresse"required tabindex="3">
    		<p>
-   		sexe :
+   		sexe : <br>
    		     <input type="radio" name="genre" tabindex="4"> <label>Homme</label> 
    		     <input type="radio" name="genre" checked tabindex="5"> <label>Femme</label>
 
@@ -50,15 +53,7 @@
      	     <br/>
      	     <input type="checkbox" name="accepter">
      	     <label> J'accepte les conditions </label> <br/> <br/>
-     <fieldset>
-      <legend>entrez votre nom et age</legend>
-          <label for="nom_prenom">nom et prenom</label>
-          <input type="text" name="nom_prenom" id="nom_prenom">
-           <label for="age_user"> Votre age*</label>
-           <input type="number" name="age_user"  id="age_user" placeholder="votre age" min="7" max="77" required><br><br>
-
-     	     <input type="submit" value="Envoyer" name="bouton_envoyer"> 
-     </fieldset>
+     
    	
    </form>
 </body>
